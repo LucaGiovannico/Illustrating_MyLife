@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IllustratingMyLife</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+
+    <!--NavBar-->
+
+    <header class="py-2 px-2 text-bg-dark">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a class="navbar-brand p-3 fs-5" href="#"><img class="logo" src="./Images/newlogoinstagram.jpg" height="50px" alt="moveit brand icon" oncontextmenu="return false"> IllustratingMyLife</a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="#About-Me" class="nav-link px-2 text-white">About Me</a></li>
+          <li><a href="#Some-of-my-work" class="nav-link px-2 text-white">My Work</a></li>
+          <li><a href="#Contact-Us" class="nav-link px-2 text-white">Contact Us</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark text-bg-dark rounded-pill" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-3 rounded-pill">Login</button>
+          <button type="button" class="btn btn-light me-3 rounded-pill">Sign-up</button>
+          <button type="button" class="btn btn-outline-light me-4 rounded-pill">
+            <svg xmlns="http://www.w3.org/2000/svg" height="20" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+
+  <!--Header-->
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-4">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./Images/BESTFRIENDSEVER1.jpg" class="bestfriendsimg d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="700" loading="lazy" oncontextmenu="return false">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-4 fw-bold text-body-emphasis lh-1 mb-2 mt-2 freehand-regular">"Choose a job you love and you will never have to work a day in your life."</h1>
+        <!--<div class="socials">
+          <a href="https://www.instagram.com/illustrating_mylife/" target="_blank" class="btn btn-dark socials me-2">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+            </svg>
+          </a>
+        </div>-->
+        
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Features-->
+
+  <div class="container px-4 py-4">
+    
+    <h2 class="pb-2 border-bottom fw-bold" id="About-Me">About me and my work</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-2 mt-2">
+      <div class="col d-flex flex-column align-items-center gap-2 mt-2 fw-semibold">
+        <p class="h4 fw-semibold text-body-secondary">Hi, I'm Luca and I'm an illustrator. I love everything that has to do with technology, which is why one of my goals is to become a web developer. I have an instagram profile where I publish all my creations, come and see them.</p>
+        <a href="https://www.instagram.com/illustrating_mylife/" target="_blank" class="btn btn-dark btn-lg rounded-pill mt-2 free">Illustrating_mylife
+          <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-instagram m-1" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 ">
+              <svg xmlns="http://www.w3.org/2000/svg"  height="50px" fill="currentColor" class="bi bi-file-pdf" viewBox="0 0 16 16">
+                <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1"/>
+                <path d="M4.603 12.087a.8.8 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.7 7.7 0 0 1 1.482-.645 20 20 0 0 0 1.062-2.227 7.3 7.3 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.187-.012.395-.047.614-.084.51-.27 1.134-.52 1.794a11 11 0 0 0 .98 1.686 5.8 5.8 0 0 1 1.334.05c.364.065.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.86.86 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.7 5.7 0 0 1-.911-.95 11.6 11.6 0 0 0-1.997.406 11.3 11.3 0 0 1-1.021 1.51c-.29.35-.608.655-.926.787a.8.8 0 0 1-.58.029m1.379-1.901q-.25.115-.459.238c-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361q.016.032.026.044l.035-.012c.137-.056.355-.235.635-.572a8 8 0 0 0 .45-.606m1.64-1.33a13 13 0 0 1 1.01-.193 12 12 0 0 1-.51-.858 21 21 0 0 1-.5 1.05zm2.446.45q.226.244.435.41c.24.19.407.253.498.256a.1.1 0 0 0 .07-.015.3.3 0 0 0 .094-.125.44.44 0 0 0 .059-.2.1.1 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a4 4 0 0 0-.612-.053zM8.078 5.8a7 7 0 0 0 .2-.828q.046-.282.038-.465a.6.6 0 0 0-.032-.198.5.5 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822q.036.167.09.346z"/>
+              </svg>
+    
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis text-center">Software</h4>
+            <p class="text-body-secondary">My works are created with Adobe illustrator so that the illustration is created in a vector manner and there are no problems when enlarging.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2">
+              <svg xmlns="http://www.w3.org/2000/svg"  height="50px" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
+                <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8m-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7"/>
+              </svg>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis text-center">Colors</h4>
+            <p class="text-body-secondary">I use bright colors so that they immediately stand out and give a feeling of lightness and carefreeness to whoever is looking at it.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2">
+              <svg xmlns="http://www.w3.org/2000/svg" height="50" fill="currentColor" class="bi bi-easel" viewBox="0 0 16 16">
+                <path d="M8 0a.5.5 0 0 1 .473.337L9.046 2H14a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1.85l1.323 3.837a.5.5 0 1 1-.946.326L11.092 11H8.5v3a.5.5 0 0 1-1 0v-3H4.908l-1.435 4.163a.5.5 0 1 1-.946-.326L3.85 11H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h4.954L7.527.337A.5.5 0 0 1 8 0M2 3v7h12V3z"/>
+              </svg>
+    
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis text-center">Inspiration</h4>
+            <p class="text-body-secondary">Having had a passion for anime, manga and cartoons since I was a child, I take inspiration above all from the latter.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center fs-2">
+              <svg xmlns="http://www.w3.org/2000/svg" height="50px" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/>
+              </svg>            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis text-center">Work on commission</h4>
+            <p class="text-body-secondary">I also work on commission. If you like my work, contact me privately on Instagram and we'll have a chat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Carousel-->
+
+  <div class="container mt-5">
+    <h2 class="pb-3 border-bottom mb-5 fw-bold" id="Some-of-my-work">Some of my work</h2>
+    <div class="row">
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="card shop mb-5">
+          <img src="./Images/GIF/RUFYFLATDESIGN.gif" class="shop-img" alt="RufyImage" oncontextmenu="return false">
+          <div class="card-body">
+            <h5 class="card-title text-center">Rufy</h5>
+            <div class="text-center">
+              <button class="btn btn-dark text rounded-pill"> Shop</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="card shop mb-5">
+          <img src="./Images/GIF/NARUTOCHIBI.gif" class="shop-img" alt="NarutoImage" oncontextmenu="return false">
+          <div class="card-body">
+            <h5 class="card-title text-center">Naruto</h5>
+            <div class="text-center">
+              <button class="btn btn-dark text rounded-pill"> Shop</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="card shop mb-5">
+          <img src="./Images/GIF/PETERGRIFFIN.gif" class="shop-img" alt="PeterGriffinImage" oncontextmenu="return false">
+          <div class="card-body">
+            <h5 class="card-title text-center">Peter Griffin</h5>
+            <div class="text-center">
+             <button class="btn btn-dark text rounded-pill"> Shop</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="card shop mb-5">
+          <img src="./Images/GIF/lollipop.gif" class="shop-img" alt="LollipopImage" oncontextmenu="return false">
+          <div class="card-body">
+            <h5 class="card-title text-center">Lollipop</h5>
+            <div class="text-center">
+              <button class="btn btn-dark text rounded-pill"> Shop</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="card shop mb-5">
+          <img src="./Images/GIF/goofy.gif" class="shop-img" alt="GoofyImage" oncontextmenu="return false">
+          <div class="card-body">
+            <h5 class="card-title text-center">Goofy</h5>
+            <div class="text-center">
+              <button  class="btn btn-dark text rounded-pill">Shop</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="card shop mb-5">
+          <img src="./Images/GIF/cloud.gif" class="shop-img" alt="CloudImage" oncontextmenu="return false">
+          <div class="card-body">
+            <h5 class="card-title text-center">Cloud</h5>
+            <div class="text-center">
+              <button class="btn btn-dark text rounded-pill"> Shop</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="card shop mb-5">
+          <img src="./Images/GIF/cp30.gif" class="shop-img" alt="C30P=Image" oncontextmenu="return false">
+          <div class="card-body">
+            <h5 class="card-title text-center">C-3PO</h5>
+            <div class="text-center">
+              <button class="btn btn-dark text rounded-pill"> Shop</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="card shop mb-5">
+          <img src="./Images/GIF/lebron.gif" class="shop-img" alt="LebronjamesImage" oncontextmenu="return false">
+          <div class="card-body">
+            <h5 class="card-title text-center">Lebron J</h5>
+            <div class="text-center">
+              <button class="btn btn-dark text rounded-pill"> Shop</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="card shop mb-5">
+          <img src="./Images/GIF/woody.gif" class="shop-img" alt="WoodyImage" oncontextmenu="return false">
+          <div class="card-body">
+            <h5 class="card-title text-center">Woody</h5>
+            <div class="text-center">
+              <button class="btn btn-dark text rounded-pill"> Shop</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="card shop mb-5">
+          <img src="./Images/GIF/minion.gif" class="shop-img" alt="MinionImage" oncontextmenu="return false">
+          <div class="card-body">
+            <h5 class="card-title text-center">Minion</h5>
+            <div class="text-center">
+              <button class="btn btn-dark text rounded-pill"> Shop</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="card shop mb-5">
+          <img src="./Images/GIF/WALTERWHITE.gif" class="shop-img" alt="WalterWhiteImage" oncontextmenu="return false">
+          <div class="card-body">
+            <h5 class="card-title text-center">Walter White</h5>
+            <div class="text-center">
+              <button class="btn btn-dark text rounded-pill"> Shop</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="card shop mb-5">
+          <img src="./Images/GIF/GHOSTBUSTER.gif" class="shop-img" alt="StaypuftImage" oncontextmenu="return false">
+          <div class="card-body">
+            <h5 class="card-title text-center">StayPuft</h5>
+            <div class="text-center">
+              <button class="btn btn-dark text rounded-pill"> Shop</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+
+<!--Contact Us-->
+
+<section class="">
+  <div class="container">
+    <h2 class="pb-3 border-bottom mb-5 fw-bold" id="Some-of-my-work">Contact Us</h2>
+    <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+      <div class="col-12 col-lg-6">
+        <img class="img-fluid img-contact" loading="lazy" src="./Images/Buzzlightyearsito.jpg" height="500" width="500" alt="Contact Us" oncontextmenu="return false">
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="row justify-content-xl-center">
+          <div class="col-12 col-xl-11">
+            <h2 class="h3 my-4 fw-bold">Get in touch</h2>
+            <p class="lead fs-4 fw-semibold text-secondary mb-5">If you have any questions about me that you are interested in asking me or about your work, don't hesitate to contact me.</p>
+            <div class="d-flex mb-5">
+              <div class="me-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-geo" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="mb-3 fw-bold">Address</h4>
+                <address class="mb-0 text-secondary fw-semibold">Lecce,Italy</address>
+              </div>
+            </div>
+            <div class="d-flex mb-5">
+              <div class="me-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telephone-outbound" viewBox="0 0 16 16">
+                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="mb-3 fw-bold">Whatsapp</h4>
+                <p class="mb-0">
+                  <a class="link-secondary text-decoration-none fw-semibold" href="https://wa.me/+393402517117">340/2517117</a>
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-5">
+              <div class="me-4 ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                  <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z" />
+                  <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="mb-3 fw-bold">E-Mail</h4>
+                <p>
+                  <a class="link-secondary text-decoration-none fw-semibold" href="mailto:jewe21@hotmail.it">jewe21@hotmail.it</a>
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-5">
+              <div class="me-4 ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="mb-3 fw-bold">Instagram</h4>
+                <p>
+                  <a class="link-secondary text-decoration-none fw-semibold" href="https://www.instagram.com/illustrating_mylife/" target="_blank">Illustrating_MyLife</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  <!--Footers-->
+
+  <div class="container" id="Contact-Us">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-5 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary">© 2024 IllustratingMyLife, Inc</p>
+  
+      <a href="https://www.instagram.com/illustrating_mylife/" target="_blank" class="col-4  d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img src="./Images/newlogoinstagram.jpg" class="logo" height="50" alt="logo" oncontextmenu="return false">
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#About-Me" class="nav-link px-2 text-body-secondary">About me</a></li>
+        <li class="nav-item"><a href="#Some-of-my-work" class="nav-link px-2 text-body-secondary">Some of my work</a></li>
+        <li class="nav-item"><a href="#Contact-Us" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
+      </ul>
+    </footer>
+  </div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,35 @@
+
+    .freehand-regular {
+        font-family: "Freehand", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+
+.logo{
+    border-radius: 50%;
+}
+
+
+
+.socials{
+    display: inline-block;
+    border-radius: 120px;
+}
+
+.bestfriendsimg{
+    border-radius: 30%;
+}
+
+.shop{
+    border-radius: 50px;
+}
+
+.shop-img{
+    border-radius: 48px 48px 0px 0px;
+}
+
+.img-contact{
+    border-radius: 80px;
+}
